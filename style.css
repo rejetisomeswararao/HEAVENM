@@ -12,6 +12,12 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+
 
 /* Body Animation */
 @keyframes bodyAnimation {
@@ -61,3 +67,4 @@ button {
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
